@@ -22,4 +22,4 @@ jobs:
 
       - name: Upload index.html to S3
         run: |
-          aws s3 cp index.html s3://mydemo1707/ --acl public-read
+          aws s3 cp index.html s3://your-s3-bucket-name/ --acl public-read
